@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    config:
+      uri: ${URI_CONFIG:http://localhost:8889}
+      name: "ms-gateway"
